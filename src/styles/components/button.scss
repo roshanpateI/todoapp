@@ -1,0 +1,28 @@
+.big-button {
+ background: $off-purple;   
+ border: none;
+ font-size: $l-size;
+ color: white;
+ margin-bottom: $xl-size;
+ padding: $m-size;
+ width: 100%;
+}
+
+.big-button:disabled {
+    opacity: 0.5;
+}
+
+
+.button {
+    background-color: $off-purple;
+    border: none;
+    color: white;
+    font-weight: 500;
+    padding: $s-size;
+}
+
+.button--link {
+    background: none;
+    color: $off-gray;
+    padding: 0;
+}
